@@ -11,6 +11,9 @@ namespace HungerZone.Services.AuthAPI.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            //shssu
+            //hi a=allS
+
         }
         }
 }
