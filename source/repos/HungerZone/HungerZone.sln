@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HungerZoneUI", "HungerZoneUI", "{B0FE7F91-4FC6-4D59-9EBF-BDB4D04F2759}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GateWay", "GateWay", "{32A1A96E-139B-4158-AC60-69ADF3C250EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{62ED639B-A73C-4946-BE2E-22CA66D22F9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A17231B9-0A08-4D19-A560-957F597B65D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HungerZone.Services.CouponAPI", "HungerZone.Services.CouponAPI\HungerZone.Services.CouponAPI.csproj", "{5AF08427-FFFA-42E9-94B8-8979C8263D4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HungerZone.Web", "HungerZone.Web\HungerZone.Web.csproj", "{D1AC618D-BD81-4116-BFAF-F2AA556A9B28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HungerZone.Services.AuthAPI", "HungerZone.Services.AuthAPI\HungerZone.Services.AuthAPI.csproj", "{4E5124C9-77D5-4C82-9484-C1697DE74F1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AF08427-FFFA-42E9-94B8-8979C8263D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF08427-FFFA-42E9-94B8-8979C8263D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF08427-FFFA-42E9-94B8-8979C8263D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF08427-FFFA-42E9-94B8-8979C8263D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AC618D-BD81-4116-BFAF-F2AA556A9B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AC618D-BD81-4116-BFAF-F2AA556A9B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AC618D-BD81-4116-BFAF-F2AA556A9B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AC618D-BD81-4116-BFAF-F2AA556A9B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5124C9-77D5-4C82-9484-C1697DE74F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5124C9-77D5-4C82-9484-C1697DE74F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5124C9-77D5-4C82-9484-C1697DE74F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5124C9-77D5-4C82-9484-C1697DE74F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1AC618D-BD81-4116-BFAF-F2AA556A9B28} = {B0FE7F91-4FC6-4D59-9EBF-BDB4D04F2759}
+		{4E5124C9-77D5-4C82-9484-C1697DE74F1F} = {A17231B9-0A08-4D19-A560-957F597B65D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D6BD6A3-13DA-4827-A5BC-CCBE5042B6E0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HungerZone.Services.AuthAPI.props" />
+</Project>

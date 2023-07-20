@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VEvmtVcU6fW7poxMZHm/czdkTkMfOTdnJ1o99HkCg3Y=",
+  "Source": "HungerZone.Services.CouponAPI",
+  "BasePath": "_content/HungerZone.Services.CouponAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
